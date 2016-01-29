@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ap7-n9-h5K">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="Vqh-lP-J0V">
+            <objects>
+                <navigationController id="Ap7-n9-h5K" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zXh-oI-gxo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Dsp-Gj-vfa" kind="relationship" relationship="rootViewController" id="k7B-b2-JZn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hDA-Vp-HNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-712" y="234"/>
+        </scene>
+        <!--日记-->
+        <scene sceneID="thr-0y-thW">
+            <objects>
+                <viewController id="Dsp-Gj-vfa" customClass="DiaryVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="No7-we-7f4"/>
+                        <viewControllerLayoutGuide type="bottom" id="kek-hc-Ak9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xsm-qZ-hnI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="日记" id="9Ri-bf-TdG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="976-6x-lyk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="234"/>
+        </scene>
+    </scenes>
+</document>

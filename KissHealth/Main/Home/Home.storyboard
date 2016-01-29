@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aQK-9e-9sw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="dBf-za-bnm">
+            <objects>
+                <navigationController id="aQK-9e-9sw" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xWS-ra-Ilu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="01l-h0-IhR" kind="relationship" relationship="rootViewController" id="Upg-Ve-Pax"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYx-n5-Ox1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-512" y="184"/>
+        </scene>
+        <!--健康咨询-->
+        <scene sceneID="sPk-Dv-tXY">
+            <objects>
+                <viewController id="01l-h0-IhR" customClass="HomeVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jlp-ol-PgM"/>
+                        <viewControllerLayoutGuide type="bottom" id="IHi-Wo-RnK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lgH-tA-DIJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="健康咨询" id="jTS-kA-WIL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qlo-DJ-XOB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="226" y="184"/>
+        </scene>
+    </scenes>
+</document>
