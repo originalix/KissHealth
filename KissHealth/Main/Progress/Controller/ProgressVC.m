@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSLog(@"hello world");
+    printf("hello world");
+    //这是一个测试代码 
 }
 
 - (void)didReceiveMemoryWarning {
